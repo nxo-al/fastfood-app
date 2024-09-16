@@ -1,2 +1,26 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+@font-face {
+  font-family: "Nunito";
+  src: url("/font/Nunito-Regular.ttf");
+}
+
+:root {
+  --ion-font-family: 'Nunito';
+  --ion-color-yellow: #FFFF00;
+}
+
+ion-menu.md ion-item {
+  font-weight: bold;
+}
+
+ion-badge {
+  --color: var(--ion-color-light);
+  --background: var(--ion-color-primary);
+  --padding-start: 8px;
+  --padding-end: 8px;
+  --border-radius: 12px;
+  font-size: 12px;
+}
