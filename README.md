@@ -16,7 +16,7 @@ This is a cross-platform mobile app built with Ionic and Vue.js, using Capacitor
 ### Installation
 1. Clone the repo:
 ```
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/nxo-al/fastfood-app.git
 cd your-repo-name
 ```
 2. Install dependencies:
